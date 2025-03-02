@@ -91,4 +91,4 @@ with open('subtitles.srt', 'w', encoding='utf-8') as srt_file:
         srt_file.write(f"{format_timestamp(start)} --> {format_timestamp(end)}\n")
         srt_file.write(f"{text}\n\n")
 
-print("✅ Đã tạo subtitles.srt với timestamp chuẩn milliseconds và chống trùng lặp.")
+print("Đã tạo subtitles.srt với timestamp chuẩn milliseconds và chống trùng lặp.")
