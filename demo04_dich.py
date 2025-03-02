@@ -50,4 +50,4 @@ translated_srt_content = "\n\n".join(translated_blocks)
 with open("translated_subtitles.srt", "w", encoding="utf-8") as out_file:
     out_file.write(translated_srt_content)
 
-print("✅ Đã dịch và lưu ra translated_subtitles.srt")
+print(" Đã dịch và lưu ra translated_subtitles.srt")

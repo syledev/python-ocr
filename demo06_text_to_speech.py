@@ -50,4 +50,4 @@ stretched_audio = original_audio.speedup(playback_speed=1/stretch_ratio)
 # Xuất file cuối cùng
 stretched_audio.export("gemini_response_stretched.mp3", format="mp3")
 
-print(f"✅ Đã tạo file gemini_response_stretched.mp3 với độ dài chính xác: {total_duration:.2f} giây")
+print(f"Đã tạo file gemini_response_stretched.mp3 với độ dài chính xác: {total_duration:.2f} giây")

@@ -58,4 +58,4 @@ final_clip = CompositeVideoClip([video, black_bar] + sub_clips)
 # Xuất video
 final_clip.write_videofile("final_with_cleaned_sub.mp4", fps=24, codec="libx264", audio_codec="aac")
 
-print("✅ Video xuất thành công!")
+print("Video xuất thành công!")

@@ -13,7 +13,7 @@ def upload_input_video():
     )
 
     if not file_path:
-        print("❌ Không chọn file nào. Thoát chương trình.")
+        print(" Không chọn file nào. Thoát chương trình.")
         return None
 
     # Tên file gốc (không có đường dẫn)
@@ -25,7 +25,7 @@ def upload_input_video():
     # Copy file vào thư mục chính
     shutil.copy2(file_path, destination)
 
-    print(f"✅ Đã tải lên file: {file_name} và lưu vào thư mục chính")
+    print(f" Đã tải lên file: {file_name} và lưu vào thư mục chính")
 
     # Trả về tên file vừa upload để xử lý tiếp
     return file_name
@@ -33,4 +33,4 @@ def upload_input_video():
 if __name__ == "__main__":
     uploaded_file = upload_input_video()
     if uploaded_file:
-        print(f"👉 File vừa tải lên: {uploaded_file}")
+        print(f" File vừa tải lên: {uploaded_file}")
